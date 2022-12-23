@@ -91,6 +91,7 @@ class MainActivity : AppCompatActivity(), OnClickListener {
         firstNumber = ""
         secondNumber = ""
         operation = ""
+        Toast.makeText(this, "All data cleared", Toast.LENGTH_SHORT).show()
     }
 
     override fun onClick(v: View?) {
